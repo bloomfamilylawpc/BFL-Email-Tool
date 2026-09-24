@@ -1,0 +1,226 @@
+{
+  "quickLinks": [
+    {
+      "name": "MyCase",
+      "url": "https://www.mycase.com/login/",
+      "color": "#D6CBB3"
+    },
+    {
+      "name": "Asana",
+      "url": "https://app.asana.com/",
+      "color": "#A8BFCF"
+    },
+    {
+      "name": "Dropbox",
+      "url": "https://www.dropbox.com/home",
+      "color": "#A9C4B8"
+    },
+    {
+      "name": "Clio Draft",
+      "url": "https://www.clio.com/login/",
+      "color": "#B8ACC4"
+    },
+    {
+      "name": "Google Drive",
+      "url": "https://drive.google.com/",
+      "color": "#8FAE9E"
+    },
+    {
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com/",
+      "color": "#C9B896"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai/",
+      "color": "#C2B5CC"
+    }
+  ],
+  "attorneys": [
+    {
+      "name": "Katie",
+      "email": "katie@bloomlegalcoach.com",
+      "calendly": "https://calendly.com/hey-katie/initial-meeting-w-katie",
+      "bio": "As a Certified Family Law Specialist and 2026 Super Lawyer, Katie focuses on a holistic and collaborative approach to family matters. Whether you are looking for legal clarity or a more peaceful, solution-oriented approach to your matter, Katie uses her background as a trained coach to help couples navigate these conversations with empathy and transparency. Click here to learn more about Katie’s experience and philosophy."
+    },
+    {
+      "name": "Riena",
+      "email": "riena@bloomlegalcoach.com",
+      "calendly": "https://calendly.com/riena-bloomlegalcoach/initial-consultation-zoom",
+      "bio": "Riena is a 2024-2026 Northern California Rising Star recipient who specializes in collaborative marital agreements. Whether you are seeking asset protection or a transparent, solution-oriented process, her expertise ensures you are supported with both skill and compassion. Click here to learn more about Riena's experience and qualifications. https://www.bloomlegalcoach.com/team/riena-yu/"
+    },
+    {
+      "name": "Sam",
+      "email": "PASTE_SAM_EMAIL_HERE",
+      "calendly": "PASTE_SAM_CALENDLY_LINK_HERE",
+      "bio": "PASTE_SAM_BIO_PARAGRAPH_HERE"
+    }
+  ],
+  "senders": [
+    {
+      "name": "Natalie",
+      "signature": "Natalie Coney (she/her)\nParalegal/Case Manager\n409 13th Street, Ste. 600 | Oakland | 94612\nPhone: 510.977.8393 | Bloom Family Law, PC | bloomlegalcoach.com",
+      "email": "natalie@bloomlegalcoach.com"
+    },
+    {
+      "name": "Maggie",
+      "signature": "Maggie London\nChief Operating Officer\n409 13th Street, Ste. 600 | Oakland | 94612\nPhone: 510.977.8393 | Bloom Family Law, PC | bloomlegalcoach.com",
+      "email": "maggie@bloomlegalcoach.com"
+    },
+    {
+      "name": "Daniel",
+      "signature": "Daniel Padilla\nBusiness Operations\n409 13th Street, Ste. 600 | Oakland | 94612\nPhone: 510.977.8393 | Bloom Family Law, PC | bloomlegalcoach.com",
+      "email": "daniel@bloomlegalcoach.com"
+    },
+    {
+      "name": "Katie",
+      "email": "katie@bloomlegalcoach.com",
+      "signature": "Katie Padilla (she/hers)\nCertified Family Law Specialist*\n409 13th Street, Ste. 600 | Oakland | 94612\nPhone: 510.977.8393 | Bloom Family Law, PC | bloomlegalcoach.com\nAs featured in Business Express\nAs featured in CEO Weekly\nAs featured in Business Insider\nAs featured in AP News\nAs featured in The Mamahood\nAs featured in California Observer"
+    },
+    {
+      "name": "Riena",
+      "email": "riena@bloomlegalcoach.com",
+      "signature": "Riena Yu\nAttorney\n409 13th Street, Ste. 600 | Oakland | 94612\nPhone: 510.977.8393 | Bloom Family Law, PC | bloomlegalcoach.com"
+    }
+  ],
+  "alwaysBcc": [
+    "maggie@bloomlegalcoach.com",
+    "daniel@bloomlegalcoach.com"
+  ],
+  "categories": [
+    {
+      "name": "Initial Outreach & Scheduling",
+      "templates": [
+        {
+          "id": "invite-consult",
+          "name": "Consultation Invite",
+          "subject": "Thank you for reaching out to Bloom Family Law",
+          "body": "Thank you for reaching out to Bloom Family Law!\n\nTo get started, please use this link to schedule a consultation with [Attorney Name]: [Scheduling Link]\n\nYou can select your preferred format (Zoom or phone) when booking.\n\n[Attorney Bio]\n\nIf you decide to move forward with us after your consultation, you don't need to worry about a large upfront retainer—we work on an hourly basis, so you only pay for the time we actually spend on your matter.\n\nWe look forward to hearing more about your situation and discussing how we can help you move forward. Please reach out if you have any questions in the meantime.\n\nKind regards,"
+        },
+        {
+          "id": "consult-confirmed",
+          "name": "Consultation Confirmed",
+          "subject": "You're confirmed for [Date] at [Time]",
+          "body": "Hi [Client First Name],\n\nYou're all set. Your free consultation with [Attorney Name] is confirmed for:\n\n[Date] at [Time]\n\n[Meeting Link or Address]\n\nIf anything comes up and you need to reschedule, just reply to this email or use this link:\n[Scheduling Link]\n\nWe look forward to speaking with you soon."
+        },
+        {
+          "id": "consult-reminder",
+          "name": "Consultation Reminder (Day Before)",
+          "subject": "Reminder: your consultation is tomorrow at [Time]",
+          "body": "Hi [Client First Name],\n\nJust a friendly reminder that your free consultation with [Attorney Name] is scheduled for tomorrow, [Date], at [Time].\n\n[Meeting Link or Address]\n\nIf you need to reschedule, no problem — just use this link:\n[Scheduling Link]\n\nWe look forward to speaking with you."
+        }
+      ]
+    },
+    {
+      "name": "Follow-Up",
+      "templates": [
+        {
+          "id": "missed-consult",
+          "name": "Missed Consultation — Reschedule",
+          "subject": "We missed you today — let's find a new time",
+          "body": "Hi [Client First Name],\n\nI hope you're doing okay. We had you scheduled for a complimentary consultation with [Attorney Name] today, and it looks like we weren't able to connect. Life gets busy, and we completely understand that things come up.\n\nWe'd still love the opportunity to speak with you and answer any questions you have. If you'd like to reschedule, you can pick a new time that works for you here:\n\n[Scheduling Link]\n\nIf now isn't the right time, or if your situation has changed, no pressure at all — just let us know, and we're happy to help whenever you're ready.\n\nLooking forward to connecting with you soon."
+        },
+        {
+          "id": "outstanding-balance",
+          "name": "Outstanding Balance",
+          "subject": "A Quick Note About Your Account Balance",
+          "body": "Hi [Client First Name],\n\nI hope you're doing well. I wanted to reach out regarding an outstanding balance of $[Balance Amount] on your account.\n\nIf you have any questions about the balance or would like to discuss payment options, please don't hesitate to reach out — we're happy to help.\n\nThank you for your prompt attention to this."
+        }
+      ]
+    },
+    {
+      "name": "Decision & Next Steps",
+      "templates": [
+        {
+          "id": "welcome-onboarding",
+          "name": "Welcome / What to Expect (New Client)",
+          "subject": "Welcome to Bloom Family Law — Next Steps",
+          "body": "Dear [Client First Name],\n\nWe are excited to collaborate with you and assist with your case. Here's what we need to get started. \n\nPlease review the two emails we just sent to you. Once you review and sign, we can get started. \n\nHere's what's coming next:\n\n1. MyCase is our case management software. You will receive an email from them with a secure link to your Fee Agreement. Please review, then click the box above your name on the last page to sign. Once your attorney countersigns the agreement, you will receive a fully executed copy.\n2. LawPay, our secure payment processor, will also email you to set up your payment account. Most of our clients prefer the eCheck option to avoid the 3% processing fee for debit/credit card payments.\n\nPlease check your Spam folder if you do not see these links, and always feel free to reach out with any questions.\n\nWe look forward to working with you."
+        },
+        {
+          "id": "fee-agreement-sent",
+          "name": "Fee Agreement Sent",
+          "subject": "Your Fee Agreement is ready to sign",
+          "body": "Hi [Client First Name],\n\nYour Fee Agreement has been sent to you through MyCase for electronic signature. Please review it at your convenience, and let us know if you have any questions before signing.\n\nOnce it's signed, we'll be able to move forward with getting your case underway."
+        },
+        {
+          "id": "fee-agreement-followup",
+          "name": "Follow Up on Fee Agreement",
+          "subject": "Following Up on Your Fee Agreement- Bloom Family Law",
+          "body": "Hi [Client First Name],\n\nI wanted to follow up and confirm you received the Fee Agreement we sent through MyCase. Please let us know if you have any questions before signing — we're happy to walk through anything that's unclear.\n\nOnce it's signed, we'll be able to move forward with getting your case underway.\n\nThank you,"
+        },
+        {
+          "id": "client-close-out",
+          "name": "Client Close-Out",
+          "subject": "Close Out Letter - Bloom Family Law",
+          "body": "Hi [Client First Name],\n\nWith your matter now resolved, we wanted to reach out and formally close out your file with our office.\n\nThank you for trusting us to guide you through this process. Please find attached your close-out letter for Bloom Family Law. It has been an honor to work with you.\n\nIf you have any final questions, or if anything comes up down the road that you'd like our help with, please don't hesitate to reach out.\n\nWe wish you all the best moving forward.\n\nWarmly,"
+        },
+        {
+          "id": "attorney-referral",
+          "name": "Referrals",
+          "variants": [
+            {
+              "name": "Katie — Attorney Referral",
+              "senderHint": "Katie",
+              "subject": "Referral Information",
+              "body": "Hi [Client Name],\n\nI am writing to let you know that, unfortunately, we won't be able to represent you in your [PMA] at this time. We are very sorry that we cannot assist you with this specific matter.\n\nTo ensure you have the support you need, we have included four referrals for other professionals who may be able to help:\n\nJenny Wald 415-310-4194 waldfamilylaw@gmail.com \nMaya Grey 925-293-2144 maya@greyfamlaw.com \nMeghan Lang 510-629-9520 meghan@northstarmediation.com \nHeather Mayer 916-631-1996 heather@mayeryoung.com \n\nWe wish you the very best of luck with your case.\n\nWarmly,"
+            },
+            {
+              "name": "Riena — Attorney Referral",
+              "senderHint": "Riena",
+              "subject": "Referral Information",
+              "body": "Hi [Client Name],\n\nI am writing to let you know that, unfortunately, we won't be able to represent you in your [PMA] at this time. We are very sorry that we cannot assist you with this specific matter.\n\nTo ensure you have the support you need, we have included four referrals for other professionals who may be able to help:\n\nAlexandra Martin - https://www.arcr.com/attorneys-staff/alexandra-r-martin/\nLauren Wanderman - https://wandermanfamilylaw.com/\nJill White - https://www.jillwhiteattorney.com/\nDiane Nguyen - https://www.cfk.com/attorney/nguyen-diane-b/\n\nWe wish you the very best of luck with your case.\n\n\nWarmly,"
+            },
+            {
+              "name": "Katie — Litigation Referral",
+              "senderHint": "Katie",
+              "subject": "Referral Information",
+              "body": "Hi [Client Name],\n\nI am writing to let you know that, unfortunately, we won't be able to represent you in your [Litigation matter] at this time. We are very sorry that we cannot assist you with this specific matter.\n\nTo ensure you have the support you need, we have included four referrals for other professionals who may be able to help:\n\nDubroff, Easley & Lovell https://www.dubrofflaw.com/ \nAnne Mania 510-239-1598 anne@manialaw.net  \nAlexandra Sepolen 650-212-7861 asepolen@swclfamilylaw.com \nBrittany Sturtevant 925-327-6200 bsturtevant@flickerkerin.com \n\nWe wish you the very best of luck with your case.\n\n\nWarmly,"
+            },
+            {
+              "name": "Riena — Litigation Referral",
+              "senderHint": "Riena",
+              "subject": "Attorney Referral- Bloom Family Law",
+              "body": "Hi [Client Name],\n\nI am writing to let you know that, unfortunately, we won't be able to represent you in your matter at this time. We are very sorry that we cannot assist you with this specific matter.\n\nTo ensure you have the support you need, we have included four referrals for other professionals who may be able to help:\n\nJustine Joya: https://www.joyafamilylaw.com/about\nLulu Tseng: https://www.modernfamilylaw.com/our-attorneys/lulu-tseng/\nSheila Bari: www.tcbflg.com \nChristy, Keith & Donnell: https://www.ckdfamilylaw.com/\nAlexandra Sepolen: https://swclfamilylaw.com/about-us/\n\nWe wish you the very best of luck with your case.\n\nWarmly,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Client Care & Milestones",
+      "templates": [
+        {
+          "id": "wedding-congrats",
+          "name": "Congratulations on Your Wedding",
+          "subject": "Congratulations! From Bloom Family Law",
+          "body": "Hi [Client First Name],\n\nWe wanted to take a moment to send our warmest congratulations on your wedding!\n\nWhat a beautiful milestone—and such a wonderful opportunity to celebrate love, partnership, and the beginning of a new chapter together.\n\nWe hope your wedding day was filled with joy, laughter, and memories you'll treasure for years to come. May this next chapter bring you both kindness, growth, adventure, and many beautiful moments along the way.\n\nWishing you a lifetime of happiness together.\n\nWith warmest wishes,\nThe Bloom Family Law Team"
+        },
+        {
+          "id": "happy-birthday",
+          "name": "Happy Birthday",
+          "subject": "Happy Birthday from Bloom Family Law!",
+          "body": "Hi [Client First Name],\n\nToday is about you, so we wanted to take a moment to wish you a very Happy Birthday!\n\nWherever this season of life finds you, we hope the year ahead brings moments of peace, meaningful growth, and plenty of reasons to look forward.\n\nMay this next chapter bring you closer to the life you want—and remind you of just how much possibility exists ahead.\n\nWishing you a beautiful birthday and a wonderful year to come.\n\nWith warmest wishes,\nThe Bloom Family Law Team"
+        }
+      ]
+    },
+    {
+      "name": "Internal Emails",
+      "templates": [
+        {
+          "id": "new-client-retained",
+          "name": "New Client Retained",
+          "subject": "New Client Retained: [Client Name]",
+          "body": "Hi team,\n\nJust a quick note that [Client Name] has signed their Fee Agreement and is now officially retained with [Attorney Name].\n\nCase details:\n– Matter type: [Matter Type]\n– MyCase file created: [Yes/No]\n– Dropbox folder created: [Yes/No]\n\nLet me know if you have any questions."
+        },
+        {
+          "id": "office-announcement",
+          "name": "Office Announcement",
+          "subject": "Office Announcement",
+          "body": "Hi team,\n\n[Announcement details go here.]\n\nLet me know if you have any questions."
+        }
+      ]
+    }
+  ],
+  "confidentialityNotice": "PLEASE NOTE: This message is intended solely for the use of the individual or entity to whom it is addressed and may contain information that is privileged, confidential, or otherwise exempt from disclosure under applicable law. If you have received this communication in error, please notify me immediately by email or telephone and destroy the original message and attachments. If the reader of this email is not the intended recipient or the employee or agent responsible for delivering this message to the intended recipient, you are hereby notified that any dissemination, distribution, or copying of this communication is strictly prohibited. Thank you."
+}
